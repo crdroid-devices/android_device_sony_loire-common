@@ -15,5 +15,8 @@
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/sony/msm
+
 # Nfc
 BOARD_NFC_CHIPSET := pn547
