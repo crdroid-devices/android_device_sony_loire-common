@@ -17,3 +17,7 @@ SONY_ROOT := device/sony/loire-common/rootdir
 # Nfc
 PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default
+
+# Sensors config
+PRODUCT_COPY_FILES += \
+    $(SONY_ROOT)/system/etc/sec_config:system/etc/sec_config
