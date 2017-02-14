@@ -82,7 +82,7 @@ TARGET_PER_MGR_ENABLED := true
 
 # FM definitions for Broadcom solution
 BOARD_HAVE_ALTERNATE_FM := true
-BOARD_HAVE_BCM_FM := true
+BOARD_USE_BCM_FM := true
 
 # Props for hotplugging
 TARGET_SYSTEM_PROP += $(PLATFORM_COMMON_PATH)/system.prop
